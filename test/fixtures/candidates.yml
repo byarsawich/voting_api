@@ -1,17 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-# one:
-#   first_name: MyString
-#   middle_name: MyString
-#   last_name: MyString
-#   hometown: MyString
-#   district: MyString
-#   party: MyString
-#
-# two:
-#   first_name: MyString
-#   middle_name: MyString
-#   last_name: MyString
-#   hometown: MyString
-#   district: MyString
-#   party: MyString
+one:
+  first_name: Ross
+  middle_name: NULL
+  last_name: Perot
+  hometown: Dallas, TX
+  district: TX
+  party: Independent
+
+two:
+  first_name: Bernie
+  middle_name: NULL
+  last_name: Sanders
+  hometown: Burlington, VT
+  district: VT
+  party: Democrat
