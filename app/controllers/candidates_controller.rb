@@ -4,6 +4,7 @@ class CandidatesController < ApplicationController
   end
 
   def show
+    render json: Candidate.order(:id).first
   end
 
   def create
