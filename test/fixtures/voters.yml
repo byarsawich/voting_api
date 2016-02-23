@@ -1,11 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
-  party: MyString
-  token: MyString
-
-two:
-  name: MyString
-  party: MyString
-  token: MyString
+# one:
+#   first_name: MyString
+#   middle_name: MyString
+#   last_name: MyString
+#   party: MyString
+#   token: MyString
+#
+# two:
+#   first_name: MyString
+#   middle_name: MyString
+#   last_name: MyString
+#   party: MyString
+#   token: MyString

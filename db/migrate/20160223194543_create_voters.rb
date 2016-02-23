@@ -1,7 +1,9 @@
 class CreateVoters < ActiveRecord::Migration
   def change
     create_table :voters do |t|
-      t.string :name
+      t.string :first_name
+      t.string :middle_name
+      t.string :last_name
       t.string :party
       t.string :token
 

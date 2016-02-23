@@ -1,13 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
-  hometown: MyString
-  district: MyString
-  party: MyString
-
-two:
-  name: MyString
-  hometown: MyString
-  district: MyString
-  party: MyString
+# one:
+#   first_name: MyString
+#   middle_name: MyString
+#   last_name: MyString
+#   hometown: MyString
+#   district: MyString
+#   party: MyString
+#
+# two:
+#   first_name: MyString
+#   middle_name: MyString
+#   last_name: MyString
+#   hometown: MyString
+#   district: MyString
+#   party: MyString
