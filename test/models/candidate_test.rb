@@ -9,7 +9,7 @@ class CandidateTest < ActiveSupport::TestCase
     assert_equal 2, c.votes.count
   end
 
-  test "candidate requires first_name, last_name, and party" do
+  test "candidate validation" do
     c1 = Candidate.create
     c2 = Candidate.create(first_name: "Ross")
     c3 = Candidate.create(first_name: "Ross", last_name: "Perot")
