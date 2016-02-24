@@ -1,12 +1,12 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-# one:
-#   first_name: MyString
-#   middle_name: MyString
-#   last_name: MyString
-#   party: MyString
-#   token: MyString
-#
+one:
+  first_name: "Brian"
+  middle_name: nil
+  last_name: "Yarsawich"
+  party: "Independent"
+  token: "UZLdOkzop70Ddx-IJR0ABg"
+
 # two:
 #   first_name: MyString
 #   middle_name: MyString

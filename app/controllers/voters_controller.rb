@@ -3,6 +3,7 @@ class VotersController < ApplicationController
   end
 
   def show
+    render json: Voter.where(token: params["token"])
   end
 
   def update

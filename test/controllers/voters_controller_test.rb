@@ -11,6 +11,12 @@ class VotersControllerTest < ActionController::TestCase
     assert_response :success
   end
 
+  test "show voter with token authentication" do
+    get :show, {token: "UZLdOkzop70Ddx-IJR0ABg"}
+    token = "UZLdOkzop70Ddx-IJR0ABg"
+    assert_equal Voter.where(token: token).to_json, response.body
+  end
+
   test "should get update" do
     get :update
     assert_response :success
