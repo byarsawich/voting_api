@@ -8,5 +8,6 @@ class VotersController < ApplicationController
   end
 
   def update
+    
   end
 end

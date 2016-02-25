@@ -1,6 +1,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  id: 1
   first_name: Ross
   middle_name: NULL
   last_name: Perot
@@ -9,6 +10,7 @@ one:
   party: Independent
 
 two:
+  id: 2
   first_name: Bernie
   middle_name: NULL
   last_name: Sanders
